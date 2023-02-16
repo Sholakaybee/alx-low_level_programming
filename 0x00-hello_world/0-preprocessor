@@ -1,0 +1,2 @@
+#!/bin/bash
+betty -E $CFILE > c
