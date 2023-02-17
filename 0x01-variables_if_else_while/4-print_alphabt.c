@@ -1,19 +1,24 @@
-#include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * main - Determines either greater than 5, is less than 6, or is 0
+ * main - Prints the alphabet without q and e.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alp[24] = "abcdfghijklmnoprstuvwxyz";
 	int i;
-	for (i=0; i < 24; i++)
-    {
-        putchar (alp[i]);
-    }
-    putchar ('\n');
+
+	for (i = 97; i < 123; i++)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+	}
+	putchar('\n');
 	return (0);
 }
+
