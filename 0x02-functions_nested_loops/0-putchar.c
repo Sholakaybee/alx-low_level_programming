@@ -3,18 +3,19 @@
 /**
  * main - check the code
  *
+ * _putchar: prints the alphabets
  * Return: Always 0.
  */
 int main(void)
-  {
-    int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int t, u;
-
-	u = sizeof(str) / sizeof(int);
-	for (t = 0; t < u; t++)
-	{
-		putchar(str[count]);
-	}
-	putchar('\n');
-    return (0);
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
